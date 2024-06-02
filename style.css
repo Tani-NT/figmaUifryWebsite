@@ -214,6 +214,8 @@ span > sup{
     margin-left: 12.9vw;
     margin-top: -4.5vw;
     z-index: -7;
+    border-top-left-radius: .5vw;
+    border-bottom-left-radius: .5vw;
 }
 .redTitle{
     padding-top: 2vw;
@@ -224,22 +226,23 @@ span > sup{
 
 .redBox2{
     position: absolute;
-    margin-left: 19.8vw;
-    top: 12.5vw;
+    margin-left: 19.3vw;
+    top: 12.29vw;
     width: 18vw;
     height: 5vw;
-    background-color: #FF5555;
+    background-color: #f83c3c;
     display: flex;
     align-items: center;
     padding-left: 4vw;
     gap: 1.5vw;
     z-index: -9;
+    border-radius: .5vw;
 }
 .redStar{
     width: 4vw;
     height: 3vw;
-    border-right: .2vw solid #fff;
-    border-left: .2vw solid #fff;
+    border-right: .2vw solid #000;
+    border-left: .2vw solid #000;
     padding: .4vw;
 }
 .redHeading{
