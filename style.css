@@ -233,6 +233,7 @@ span > sup{
     align-items: center;
     padding-left: 4vw;
     gap: 1.5vw;
+    z-index: -9;
 }
 .redStar{
     width: 4vw;
