@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="navbar">    
+                <div class="logoAndLink">
+                    <div class="logo">
+                        <svg class="logoSvg" width="40" height="38" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.3829 10.8852C26.1564 10.6651 25.8387 10.5651 25.5277 10.6163C25.2162 10.6672 24.9472 10.8628 24.8027 11.1434C24.3057 12.1089 23.6745 12.9961 22.9318 13.7805C23.0058 13.2139 23.0431 12.6439 23.0431 12.0724C23.0431 10.9759 22.8961 9.84742 22.6061 8.71805C21.6527 5.00853 19.1525 1.87144 15.7468 0.111205C15.4503 -0.0419942 15.097 -0.0366153 14.8053 0.125549C14.5136 0.287779 14.3226 0.585213 14.2964 0.917908C14.0309 4.28895 12.2945 7.35586 9.52981 9.33424C9.49322 9.3606 9.4569 9.38729 9.42057 9.41386C9.34534 9.46891 9.27441 9.52097 9.20814 9.56467C9.19778 9.57157 9.18749 9.57861 9.17739 9.58585C7.43861 10.8308 6.00391 12.4903 5.0282 14.3854C4.03675 16.3131 3.53406 18.3818 3.53406 20.5336C3.53406 21.6299 3.68101 22.7583 3.97088 23.8879C5.50055 29.8417 10.8585 33.9999 17.0004 33.9999C24.4253 33.9999 30.4659 27.9589 30.4659 20.5336C30.4659 16.872 29.0159 13.4454 26.3829 10.8852Z" fill="#FF5555"/>
+                            <circle cx="16" cy="20" r="4" fill="white"/>
+                        </svg>
+                        <span class="logoName">uifry<sup>TM</sup></span>
+                    </div>
+                <div class="link">
+                    <h3 id="highlighted">Home</h3>
+                    <h3>About us</h3>
+                    <h3>Pricing</h3>
+                    <h3>Features</h3>
+                </div>
+                <button class="nightBtn">
+                    <i onclick="DarkModeToggle()" class="ri-contrast-2-line toggleIcon"></i>
+                </button>
+            </div>
+            
+            <button class="navBtn">Download</button>
+            </div>
+            <svg class="star" width="34" height="34" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.9117 4.97056L25.8375 21.6408L45.3253 32.8369L24.8128 23.6519L20.1867 45.6456L22.5835 23.2988L0.236642 25.6956L22.2304 21.0695L13.0454 0.556969L24.2415 20.0448L40.9117 4.97056Z" fill="black"/>
+            </svg>
+        </nav>
+        <section class="page1">
+            <div class="content">
+                <div class="blurBall"></div>
+                <h1 class="heading">Make The Best Financial Decisions</h1>
+                <p class="para">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+                <div class="mainBtn">
+                    <button class="btn1">Get Started <i class="ri-arrow-right-line" id="arrow"></i></button>
+                    <button class="btn2"><i class="ri-play-circle-line play"></i> Watch Video</button>
+                </div>
+                <div class="zigzag">
+                    <svg class="BoxStar" width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40.9117 4.97056L25.8375 21.6408L45.3253 32.8369L24.8128 23.6519L20.1867 45.6456L22.5835 23.2988L0.236642 25.6956L22.2304 21.0695L13.0454 0.556969L24.2415 20.0448L40.9117 4.97056Z" fill="black"/>
+                    </svg>     
+                    <div class="blackBox">
+                        <h1 class="a">A</h1>
+                        <div class="blackRectangle">
+                            <div class="boxFlex">
+                                <svg class="boxLogo" width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_101_118)">
+                                    <path d="M22.4217 23.7266C20.5096 24.7432 18.1353 24.0174 17.1187 22.1053L15.4142 18.8996C15.2872 18.6608 15.2237 18.5414 15.2077 18.4273C15.1808 18.236 15.2399 18.0426 15.3692 17.899C15.4463 17.8134 15.5657 17.7499 15.8045 17.6229L21.0618 14.8275C21.3006 14.7006 21.42 14.6371 21.5341 14.6211C21.7254 14.5942 21.9188 14.6533 22.0624 14.7826C22.148 14.8597 22.2115 14.9791 22.3385 15.2179L24.043 18.4236C25.0597 20.3356 24.3338 22.7099 22.4217 23.7266ZM22.4217 23.7266L23.3421 25.4576M22.5089 15.5384L23.9515 14.7714C24.2203 14.6284 24.3548 14.557 24.4842 14.5445C24.6567 14.5279 24.8288 14.5805 24.9625 14.6908C25.0628 14.7734 25.1343 14.9079 25.2772 15.1767L25.4306 15.4652C25.716 16.0019 25.8586 16.2702 25.9167 16.5217C26.0743 17.2042 25.8558 17.9189 25.3435 18.3966C25.1547 18.5726 24.8864 18.7153 24.3498 19.0006M15.5846 19.2201L14.1421 19.9872C13.8732 20.1301 13.7388 20.2016 13.6561 20.3019C13.5458 20.4357 13.4932 20.6077 13.5098 20.7802C13.5223 20.9096 13.5938 21.0441 13.7367 21.3129L13.8901 21.6014C14.1755 22.1381 14.3181 22.4064 14.4942 22.5951C14.9719 23.1074 15.6866 23.3259 16.3691 23.1683C16.6206 23.1103 16.8889 22.9676 17.4255 22.6823M21.9407 29.1634L27.198 26.3681C27.3397 26.2927 27.3934 26.1169 27.3181 25.9752C26.7156 24.8421 25.3087 24.412 24.1756 25.0145L22.5086 25.9008C21.3755 26.5033 20.9454 27.9102 21.5479 29.0433C21.6232 29.185 21.799 29.2387 21.9407 29.1634Z" stroke="#FF5555" stroke-width="1.30704" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <circle cx="21.5015" cy="21.9958" r="15.3578" transform="rotate(-28 21.5015 21.9958)" stroke="#FF5555" stroke-width="0.653521"/>
+                                    <defs>
+                                    <clipPath id="clip0_101_118">
+                                    <rect width="15.6845" height="15.6845" fill="white" transform="translate(10.8953 18.7529) rotate(-28)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>             
+                                <div class="boxContent">
+                                    <h5 class="boxTitle">Achievments</h5>
+                                    <p class="boxPara">Best App On Playstore</p>
+                                </div>
+                            </div>
+                            <div class="boxFlex">
+                                <svg class="boxLogo" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_101_111)">
+                                    <path d="M22.1609 19.4726L20.7183 20.2396C20.2403 20.4938 20.0588 21.0873 20.313 21.5654C20.5672 22.0434 21.1607 22.2248 21.6387 21.9707L22.2158 21.6639C22.6938 21.4097 23.2874 21.5912 23.5415 22.0692C23.7957 22.5472 23.6142 23.1408 23.1362 23.3949L21.6936 24.162M20.7 19.5092L21.0068 20.0862M22.8477 23.5483L23.1545 24.1254M25.3894 19.9764L25.3952 19.9733M18.4651 23.6581L18.4709 23.6551M14.9911 22.6927L17.3229 27.0781C17.6665 27.7244 17.8384 28.0476 18.0954 28.2275C18.3215 28.3859 18.5919 28.4685 18.8679 28.4637C19.1817 28.4582 19.5048 28.2864 20.1512 27.9428L27.9987 23.7701C28.645 23.4265 28.9682 23.2547 29.1482 22.9976C29.3065 22.7715 29.3892 22.5011 29.3844 22.2251C29.3789 21.9114 29.207 21.5882 28.8634 20.9419L26.5316 16.5565C26.188 15.9101 26.0161 15.587 25.7591 15.407C25.533 15.2487 25.2626 15.166 24.9866 15.1708C24.6729 15.1763 24.3497 15.3481 23.7034 15.6918L15.8558 19.8644C15.2095 20.2081 14.8863 20.3799 14.7063 20.6369C14.548 20.863 14.4653 21.1335 14.4702 21.4094C14.4756 21.7232 14.6475 22.0463 14.9911 22.6927ZM25.6779 19.823C25.7626 19.9823 25.7022 20.1802 25.5428 20.2649C25.3835 20.3496 25.1856 20.2892 25.1009 20.1298C25.0162 19.9705 25.0767 19.7726 25.236 19.6879C25.3953 19.6032 25.5932 19.6637 25.6779 19.823ZM18.7536 23.5047C18.8383 23.6641 18.7779 23.8619 18.6185 23.9466C18.4592 24.0314 18.2613 23.9709 18.1766 23.8115C18.0919 23.6522 18.1524 23.4543 18.3117 23.3696C18.471 23.2849 18.6689 23.3454 18.7536 23.5047Z" stroke="#FF5555" stroke-width="1.30704" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <circle cx="21.9273" cy="21.8173" r="15.3578" transform="rotate(-28 21.9273 21.8173)" stroke="#FF5555" stroke-width="0.653521"/>
+                                    <defs>
+                                    <clipPath id="clip0_101_111">
+                                    <rect width="15.6845" height="15.6845" fill="white" transform="translate(11.3212 18.5747) rotate(-28)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>               
+                                <div class="boxContent">
+                                    <h5 class="boxTitle">Finance</h5>
+                                    <p class="boxPara">Most Popular Accounting App</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="redBox">
+                        <h4 class="redTitle">Make The Best Financial Decision</h4>
+                    </div>
+                    <div class="redBox2">
+                        <svg class="redStar" width="41" height="38" viewBox="0 0 41 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.8081 -0.00842285L21.7915 19.5508L40.6973 14.4419L22.3993 21.4212L33.1003 37.823L20.8081 22.5773L8.51596 37.823L19.217 21.4212L0.918985 14.4419L19.8248 19.5508L20.8081 -0.00842285Z" fill="black"/>
+                        </svg>
+                        <div>
+                            <h5 class="redHeading">Uifry Premium</h5>
+                            <p class="redPara">Free Trial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainImage">
+                <div class="phoneImage">
+                    <img class="iphoneImg" src="https://s3-alpha-sig.figma.com/img/923e/4e99/f7ec5c1bc8719985da6ba5bf67a1f7c2?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iUucj~hIOnZRCjyPijfRHha~yhWRXc0gPuETg1QWtpmMecdKcniicbAQ38~0NkCPmiJ4v-CC7tQgz9r-kvGy-z~UYDRhqmcYzYH~lDYJxaCz~7GrCMBpgjig8SKKP3Kwug9FRCcu69y3sfGmQGAfvkF~uq6PY62Nxp0K9RvXiq5GY8Gr-7C9TufKpR6DnXZw05bbzZT0BU8IrPuK-rEAyrI7GmfrYRNp1qKAVgFkGpD9a78PvX-lhk3sBc0bgCkjSYqFWeewPaT2Kk2w5r2Hm8RBKOgD7cM5TyEygbZIBVSzUWbb-mtTgQ8vW-Res4a9Uf3WQEyp5X1V4w4LRpR~Ig__" alt="iphone">
+                    <img class="phoneScreen" src="https://s3-alpha-sig.figma.com/img/70c7/3db3/adedea1eb449963aaf130b2e6a9dbf26?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L3R86cvZZZGzJ3HWdIr0ZLKEdhyozgAqiYtFKbDgkJCD9JsC5quiITqGIaereLwMcAy8QU5FHB3AleSEohhI1MnfnojQ2i4otnQLohnJt1VZIoGyeZ6DCorm2WOsjLPwBrmqFlMfEStHBn2c2xgZxYhkV0rHz9X3Jk9vygZ77wtIZYAZSsxaT56IayOnIMbH4OnuPx9HpAjfHf9bURSVBtXBKq8iyUmSAC31Q5Qw2DGi32Orm1ph6CPW1HAUlkE-YQxQ-6Bn3t5YKl~S3MA3k2RtEpR~DbvQwVQ0exB3jhXfqkxKXz3dY2oZtuuJOWAJQntHAiqMEFDEpIFDcDCwrw__" alt="">
+                </div>
+                <div class="phoneImage2">
+                    <img class="iphoneImg" src="https://s3-alpha-sig.figma.com/img/923e/4e99/f7ec5c1bc8719985da6ba5bf67a1f7c2?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iUucj~hIOnZRCjyPijfRHha~yhWRXc0gPuETg1QWtpmMecdKcniicbAQ38~0NkCPmiJ4v-CC7tQgz9r-kvGy-z~UYDRhqmcYzYH~lDYJxaCz~7GrCMBpgjig8SKKP3Kwug9FRCcu69y3sfGmQGAfvkF~uq6PY62Nxp0K9RvXiq5GY8Gr-7C9TufKpR6DnXZw05bbzZT0BU8IrPuK-rEAyrI7GmfrYRNp1qKAVgFkGpD9a78PvX-lhk3sBc0bgCkjSYqFWeewPaT2Kk2w5r2Hm8RBKOgD7cM5TyEygbZIBVSzUWbb-mtTgQ8vW-Res4a9Uf3WQEyp5X1V4w4LRpR~Ig__" alt="iphone">
+                    <img class="phoneScreen2" src="https://s3-alpha-sig.figma.com/img/6bdf/d6fd/6f670c303fe64a21244a4e81142ed728?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VVMlJK43Acx2BZp8f4fF7qSUx7uryfKPzCrmxtIe4p1YfPnMguwhKXxfG-E5TLAu5TbHIr-O9ncoWOzwonqEfXPPOWJpqa7HIur2pLo-cxqOrzhyMFfZ9V3k-txQoF-But8B-9netX~h5zf7AB4MCG16kakEzjN1Ynwu1Ed4WXmF-GoqBB5mzs2mAhV~ZM8Ve64KWUURNPA4tkEEHIr3y7n1glBTfGi2PnYjid-qmYnKpcl3GCYXZmeLS9jL0~ViNri4VDnv0l2Eq~7fs7kRjODbUhDSb2GIjCvZq7ky0JR7NpxsPB5~kYmFW25tltmN0Ikf7Wm1Aq9CNmF7TiGz~w__" alt="">
+                </div>
+                <div class="phoneImage3">
+                    <img class="iphoneImg" src="https://s3-alpha-sig.figma.com/img/923e/4e99/f7ec5c1bc8719985da6ba5bf67a1f7c2?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iUucj~hIOnZRCjyPijfRHha~yhWRXc0gPuETg1QWtpmMecdKcniicbAQ38~0NkCPmiJ4v-CC7tQgz9r-kvGy-z~UYDRhqmcYzYH~lDYJxaCz~7GrCMBpgjig8SKKP3Kwug9FRCcu69y3sfGmQGAfvkF~uq6PY62Nxp0K9RvXiq5GY8Gr-7C9TufKpR6DnXZw05bbzZT0BU8IrPuK-rEAyrI7GmfrYRNp1qKAVgFkGpD9a78PvX-lhk3sBc0bgCkjSYqFWeewPaT2Kk2w5r2Hm8RBKOgD7cM5TyEygbZIBVSzUWbb-mtTgQ8vW-Res4a9Uf3WQEyp5X1V4w4LRpR~Ig__" alt="iphone">
+                    <img class="phoneScreen3" src="https://s3-alpha-sig.figma.com/img/70c7/3db3/adedea1eb449963aaf130b2e6a9dbf26?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L3R86cvZZZGzJ3HWdIr0ZLKEdhyozgAqiYtFKbDgkJCD9JsC5quiITqGIaereLwMcAy8QU5FHB3AleSEohhI1MnfnojQ2i4otnQLohnJt1VZIoGyeZ6DCorm2WOsjLPwBrmqFlMfEStHBn2c2xgZxYhkV0rHz9X3Jk9vygZ77wtIZYAZSsxaT56IayOnIMbH4OnuPx9HpAjfHf9bURSVBtXBKq8iyUmSAC31Q5Qw2DGi32Orm1ph6CPW1HAUlkE-YQxQ-6Bn3t5YKl~S3MA3k2RtEpR~DbvQwVQ0exB3jhXfqkxKXz3dY2oZtuuJOWAJQntHAiqMEFDEpIFDcDCwrw__" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

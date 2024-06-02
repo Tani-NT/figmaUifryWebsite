@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #363636;
+    padding-inline: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 10vw;
+    font-family: "Clash Display";
+}
+
+/* Navbar CSS */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoAndLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoSvg{
+    width: 4vw;
+}
+.logoName{
+    font-size: 4vw;
+    font-weight: bolder;
+    padding: .4vw;
+    font-family: "gilroy";
+}
+span > sup{
+    padding: .4vw;
+    font-size: .8vw;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+} 
+.link > h3{
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+.link > h3:hover{
+    color: #FF5555;
+}
+#highlighted{
+    font-weight: bolder;
+}
+.navBtn{
+    padding-inline: 2vw;
+    padding-block: 1.5vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Clash Display";
+    font-size: 1.5vw;
+}
+.navBtn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .8s ease-out;
+}
+.toggleIcon{
+    cursor: pointer;
+}
+
+.nightBtn{
+    border: none;
+}
+.light{
+    background-color: #fff;
+    color: #000;
+}
+.star{
+    width: 4vw;
+    margin-bottom: -16vw;
+}
+
+/* Page 1 CSS*/
+.page1{
+    display: flex;
+    padding: 3vw;
+}
+.content{
+    width: 50%;
+}
+.heading{
+    font-size: 4vw;
+    margin-top: -8vw;
+}
+.blurBall{
+    width: 6vw;
+    height: 10vw;
+    border-radius: 40%;
+    background-color: #de5052;
+    filter: blur(2.3rem);
+    margin-left: 16vw;
+    z-index: -8;
+}
+.para{
+    margin-block: 1vw;
+    color: gray;
+    font-size: 1.2vw;
+}
+.btn1{
+    padding-inline: 2vw;
+    padding-block: 1.5vw;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: "Clash Display";
+    font-size: 1.5vw;
+    margin-right: 3vw;
+}
+.btn1:hover{
+    background-color: #fff;
+    color: #000;
+}
+#arrow{
+    padding-left: .5vw;
+}
+.btn2{
+    font-size: 1.5vw;
+    background-color: #363636;
+    border: none;
+    font-family: "Clash Display";
+    padding-inline: 2vw;
+    padding-block: 1.3vw;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .8s ease-out;
+}
+.play{
+    font-size: 1.9vw;
+    padding-right: .5vw;
+}
+.zigzag{
+    position: relative;
+}
+.BoxStar{
+    position: absolute;
+    width: 4vw;
+}
+.blackBox{
+    display: flex;
+    align-items: center;
+    rotate: -30deg;
+    margin-top: 7vw;
+}
+.boxFlex{
+    display: flex;
+    align-items: center;
+    padding-inline: .4vw;
+    gap: .5vw;
+}
+.a{
+    font-size: 7vw;
+}
+.blackRectangle{
+    border-top-right-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+    background-color: #000;
+    width: 30vw;
+    height: 5vw;
+    margin-left: -1.9vw;
+    display: flex;
+    z-index: 7;
+}
+
+.boxLogo{
+    rotate: 30deg;
+    width: 2.5vw;
+    margin-left: .5vw;
+}
+.boxContent{
+    color: #fff;
+}
+.boxTitle{
+    font-size: .8vw;
+    font-weight: 900;
+    letter-spacing: .1vw;
+}
+.boxPara{
+    font-size: .8vw;
+}
+.redBox{
+    border-bottom-right-radius: .5vw;
+    position: absolute;
+    width: 23vw;
+    height: 5vw;
+    background-color: #FF5555;
+    rotate: -55deg;
+    margin-left: 12.9vw;
+    margin-top: -4.5vw;
+    z-index: -7;
+}
+.redTitle{
+    padding-top: 2vw;
+    padding-left: 1.5vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.redBox2{
+    position: absolute;
+    margin-left: 19.8vw;
+    top: 12.5vw;
+    width: 18vw;
+    height: 5vw;
+    background-color: #FF5555;
+    display: flex;
+    align-items: center;
+    padding-left: 4vw;
+    gap: 1.5vw;
+}
+.redStar{
+    width: 4vw;
+    height: 3vw;
+    border-right: .2vw solid #fff;
+    border-left: .2vw solid #fff;
+    padding: .4vw;
+}
+.redHeading{
+    font-size: 1vw;
+    font-weight: 900;
+}
+.redPara{
+    font-size: 1vw;
+}
+
+.mainImage{
+    width: 50%;
+    margin-left: 7vw;
+    position: relative;
+}
+.phoneImage{
+    z-index: 999;
+}
+.iphoneImg{
+    width: 12vw;
+    rotate: -15deg;
+    z-index: 99999;
+}
+.phoneScreen{
+    border-radius: 1.5vw;
+    width: 10.8vw;
+    rotate: -15deg;
+    position: absolute;
+    left: 1.7%;
+    top: 1.5%;
+    z-index: 9;
+}
+.phoneImage2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: -2;
+}
+.phoneScreen2{
+    border-radius: 1.5vw;
+    width: 10.8vw;
+    rotate: -15deg;
+    position: absolute;
+    left: 5%;
+    top: 1.9%;
+}
+.phoneImage3{
+    position: absolute;
+    right: 30%;
+    top: 20%;
+    z-index: -5;
+}
+.phoneScreen3{
+    border-radius: 1.5vw;
+    width: 10.8vw;
+    rotate: -15deg;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+@media (max-width: 586px) {
+    .navBtn{
+        background-color: #363636;
+        width: 12vw;
+        height: 6vw;
+        
+    }
+    .logoName{
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+}
